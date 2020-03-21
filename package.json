@@ -1,0 +1,35 @@
+{
+    "name": "project34",
+    "version": "1.0.0",
+    "description": "A Web Catcher.",
+    "main": "/dist/index.js",
+    "types": "/dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/YuxuanWang-CHINA/project34.git"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "cheerio": "^1.0.0-rc.3",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/cheerio": "^0.22.17",
+        "@types/express": "^4.17.3",
+        "@types/node": "^13.9.2",
+        "@typescript-eslint/eslint-plugin": "^2.24.0",
+        "@typescript-eslint/parser": "^2.24.0",
+        "eslint": "^6.8.0",
+        "eslint-config-alloy": "^3.6.0",
+        "prettier": "^1.19.1",
+        "typescript": "^3.8.3"
+    },
+    "scripts": {
+        "test": "node index.js"
+    },
+    "publishConfig": {
+        "registry": "http://registry.npmjs.org"
+    },
+    "author": "",
+    "license": "MIT"
+}
